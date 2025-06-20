@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    color: black;
+    font-family: 'Poppins', sans-serif; /* Fonte bonita e legível */
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    color: #222; /* Mudei para visibilidade no fundo claro da div */
+    line-height: 1.6;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.cabesa {
+    
+}
+
+.corpo {
+    background-image: url('img/fles02.jpg');
+    width: 500px;
+    height: 400px;
+}
+
+.imagem {
+    background-image: url('img/eletrecista.png');
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 600px;
+}
+
+.descri {
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    position: relative;
+    left: 170px;
+    padding: 15px;
+  
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+a {
+  display: inline-block; /* permite ajustar como bloco */
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin: 5px 0;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff9900;
+}
+.contatos{
+    border-radius: 10%;
+    background-color: #384252;
+    width: 250px;
+}
+video{
+    position: relative;
+    left: 158px;
+}
+.serviso{
+    background-image: url('img/servisos.png');
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: -170px;
+ 
+}
+html, body {
+    position: relative;
+    left: 1%;
+    width: 90vw; /* 100% da largura da janela */
+    height: 100vh; /* 100% da altura da janela */
+  
+    margin: 0;
+    padding: 0;
+}
+
