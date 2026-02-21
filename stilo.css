@@ -1,3 +1,5 @@
+/*cabeça */
+
 *{
     margin:0;
     padding:0;
@@ -10,14 +12,18 @@ body{
     color:white;
 }
 
-/* ===== CONTAINER ===== */
+
 
 .container{
     display:flex;
     height:100vh;
 }
+.conteire2{
+    display: flex;
+    height: 100vh;
+}
 
-/* ===== LADO ESQUERDO ===== */
+
 
 .lado-esquerdo{
     width:35%;
@@ -38,7 +44,6 @@ body{
     width:220px;
 }
 
-/* ===== LADO DIREITO ===== */
 
 .lado-direito{
     width:65%;
@@ -63,9 +68,7 @@ body{
     max-width:400px;
 }
 
-/* ===================================== */
-/* 📱 RESPONSIVO PARA CELULAR */
-/* ===================================== */
+
 
 @media (max-width: 768px){
 
@@ -107,4 +110,33 @@ body{
         max-width:90%;
         font-size:16px;
     }
+
+ 
+}
+.container2{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px;
+    gap:60px;
+}
+
+.sobre{
+    max-width:600px;
+}
+
+.sobre h2{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.sobre p{
+    color:#ccc;
+    line-height:1.7;
+    font-size:16px;
+}
+
+.Quemsomos img{
+    width:350px;
+    border-radius:12px;
 }
