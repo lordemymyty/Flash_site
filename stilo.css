@@ -34,12 +34,8 @@ body{
     object-fit:cover;
 }
 
-.telefone{
-    margin-top:20px;
-}
-
 .telefone img{
-    width:250px;
+    width:220px;
 }
 
 /* ===== LADO DIREITO ===== */
@@ -49,7 +45,7 @@ body{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:flex-end; /* joga tudo pro lado direito */
+    align-items:flex-end;
     padding-right:80px;
     gap:60px;
 }
@@ -65,4 +61,50 @@ body{
     line-height:1.6;
     color:#ccc;
     max-width:400px;
+}
+
+/* ===================================== */
+/* 📱 RESPONSIVO PARA CELULAR */
+/* ===================================== */
+
+@media (max-width: 768px){
+
+    .container{
+        flex-direction:column;
+        height:auto;
+    }
+
+    .lado-esquerdo,
+    .lado-direito{
+        width:100%;
+        align-items:center;
+        padding:20px;
+    }
+
+    .foto{
+        height:auto;
+        max-height:400px;
+    }
+
+    .telefone img{
+        width:180px;
+        margin-top:20px;
+    }
+
+    .lado-direito{
+        align-items:center;
+        text-align:center;
+        padding-right:0;
+        gap:30px;
+    }
+
+    .logo{
+        width:300px;
+    }
+
+    .descricao{
+        text-align:center;
+        max-width:90%;
+        font-size:16px;
+    }
 }
