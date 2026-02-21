@@ -113,6 +113,8 @@ body{
 
  
 }
+/* ===== SEÇÃO QUEM SOMOS ===== */
+
 .container2{
     display:flex;
     align-items:center;
@@ -121,7 +123,19 @@ body{
     gap:60px;
 }
 
+.Quemsomos{
+    flex:1;
+    display:flex;
+    justify-content:flex-start;
+}
+
+.Quemsomos img{
+    width:350px;
+    border-radius:12px;
+}
+
 .sobre{
+    flex:1;
     max-width:600px;
 }
 
@@ -136,7 +150,29 @@ body{
     font-size:16px;
 }
 
-.Quemsomos img{
-    width:350px;
-    border-radius:12px;
+/* ===================================== */
+/* 📱 RESPONSIVO PARA QUEM SOMOS */
+/* ===================================== */
+
+@media (max-width:768px){
+
+    .container2{
+        flex-direction:column;
+        text-align:center;
+        padding:40px 20px;
+    }
+
+    .Quemsomos{
+        justify-content:center;
+    }
+
+    .Quemsomos img{
+        width:250px;
+        margin-bottom:30px;
+    }
+
+    .sobre{
+        max-width:100%;
+    }
+
 }
