@@ -1,89 +1,283 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flash - Serviços Elétricos</title>
 
-<link rel="stylesheet" href="stilo.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101315">
+
+    <meta name="description" content="Flash Soluções Técnicas em Elétrica. Instalações, manutenção e projetos elétricos.">
+
+    <title>Flash | Serviços Elétricos</title>
+
+    <link rel="stylesheet" href="stilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- ================= HERO ================= -->
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <a href="#inicio" class="marca">
+            <img src="img/flash.png" alt="Flash Serviços Elétricos">
+        </a>
 
-<div class="container">
+        <nav class="menu" id="menu">
+            <a href="#inicio">Início</a>
+            <a href="#quem-somos">Quem somos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
 
-    <div class="lado-esquerdo">
-        <img src="img/mamis.jpg" class="foto" alt="Foto">
-        <div class="telefone">
-            <img src="img/numero.png" alt="Telefone">
-        </div>
-    </div>
+        <button class="menu-botao" id="menu-botao"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
 
-    <div class="lado-direito">
-        <img src="img/flash.png" class="logo" alt="Flash">
-        <div class="descricao">
-            EMPRESA ESPECIALIZADA EM:<br>
-            INSTALAÇÃO • MANUTENÇÃO • PROJETOS ELÉTRICOS
-        </div>
-    </div>
+    <main>
 
-</div>
+        <!-- APRESENTAÇÃO -->
+        <section class="hero" id="inicio">
 
-<!-- ================= QUEM SOMOS ================= -->
+            <div class="hero-conteudo">
+                <span class="etiqueta">SOLUÇÕES ELÉTRICAS</span>
 
-<section class="quem-somos">
+                <h1>
+                    Energia com <span>segurança.</span><br>
+                    Qualidade em cada detalhe.
+                </h1>
 
-    <div class="quem-img">
-        <img src="img/fernando e renata.jpg" alt="Equipe Flash">
-    </div>
+                <p class="hero-descricao">
+                    Empresa especializada em instalações,
+                    manutenção e projetos elétricos para
+                    residências, comércios e indústrias.
+                </p>
 
-    <div class="quem-texto">
-        <h2>Quem Somos</h2>
-        <p>
-            A empresa FLASH Soluções Técnicas em Elétrica atua no setor elétrico brasileiro como MEI desde 2020,
-            especializada em instalações, manutenções e projetos elétricos.
-            Trabalhamos com foco em segurança, qualidade técnica e eficiência energética,
-            atendendo os segmentos residencial, comercial e industrial.
-        </p>
-    </div>
+                <div class="hero-acoes">
+                    <a href="#servicos" class="botao botao-amarelo">
+                        Conheça os serviços <span>→</span>
+                    </a>
 
-</section>
+                    <a href="#quem-somos" class="botao botao-contorno">
+                        Sobre a empresa
+                    </a>
+                </div>
 
-<!-- ================= SERVIÇOS ================= -->
+                <div class="hero-destaque">
+                    <span class="destaque-icone">⚡</span>
+                    <div>
+                        <strong>Desde 2020</strong>
+                        <p>Experiência e compromisso com a qualidade</p>
+                    </div>
+                </div>
+            </div>
 
-<section class="services">
+            <div class="hero-imagem">
+                <img src="img/imaflahs.jpg" alt="Equipe Flash">
+            </div>
 
-    <h2 class="services-title">Serviços a Oferecer</h2>
+        </section>
 
-    <div class="services-cards">
+        <!-- QUEM SOMOS -->
+        <section class="quem-somos secao" id="quem-somos">
 
-        <div class="card">
-            <img src="img/service1.jpg" alt="">
-            <h3>Instalações Elétricas</h3>
-            <p>Execução completa de instalações residenciais e comerciais.</p>
-            <button>Saiba Mais</button>
-        </div>
+            <div class="secao-titulo">
+                <span class="etiqueta">CONHEÇA A FLASH</span>
+                <h2>Quem <span>somos</span></h2>
+                <p>Compromisso, confiança e qualidade em serviços elétricos.</p>
+            </div>
 
-        <div class="card">
-            <img src="img/service2.jpg" alt="">
-            <h3>Manutenção Elétrica</h3>
-            <p>Manutenção preventiva e corretiva com segurança e agilidade.</p>
-            <button>Saiba Mais</button>
-        </div>
+            <div class="quem-conteudo">
 
-        <div class="card">
-            <img src="img/service3.jpg" alt="">
-            <h3>Projetos Elétricos</h3>
-            <p>Desenvolvimento de projetos conforme normas técnicas vigentes.</p>
-            <button>Saiba Mais</button>
-        </div>
+                <div class="quem-img">
+                    <img src="img/fernando e renata.jpg"
+                         alt="Fernando e Renata, equipe Flash"
+                         loading="lazy">
+                </div>
 
-    </div>
+                <div class="quem-texto">
+                    <h3>Levamos energia a novos projetos.</h3>
 
-</section>
+                    <p>
+                        A empresa FLASH Soluções Técnicas em Elétrica
+                        atua no setor elétrico brasileiro como MEI
+                        desde 2020, especializada em instalações,
+                        manutenções e projetos elétricos.
+                    </p>
+
+                    <p>
+                        Trabalhamos com foco em segurança, qualidade
+                        técnica e eficiência energética, atendendo
+                        os segmentos residencial, comercial e industrial.
+                    </p>
+
+                    <div class="valores">
+                        <div class="valor">
+                            <span>✓</span>
+                            <div>
+                                <strong>Segurança</strong>
+                                <p>Prioridade em cada serviço.</p>
+                            </div>
+                        </div>
+
+                        <div class="valor">
+                            <span>✓</span>
+                            <div>
+                                <strong>Qualidade</strong>
+                                <p>Compromisso com a execução.</p>
+                            </div>
+                        </div>
+
+                        <div class="valor">
+                            <span>✓</span>
+                            <div>
+                                <strong>Eficiência</strong>
+                                <p>Soluções para cada necessidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section class="servicos secao" id="servicos">
+
+            <div class="secao-titulo">
+                <span class="etiqueta">O QUE FAZEMOS</span>
+                <h2>Nossos <span>serviços</span></h2>
+                <p>Soluções elétricas para diferentes necessidades.</p>
+            </div>
+
+            <div class="services-cards">
+
+                <article class="card">
+                    <div class="card-imagem">
+                        <img src="img/service1.jpg"
+                             alt="Instalações elétricas"
+                             loading="lazy">
+                    </div>
+
+                    <div class="card-conteudo">
+                        <span class="card-numero">01 / INSTALAÇÃO</span>
+                        <h3>Instalações Elétricas</h3>
+                        <p>
+                            Execução de instalações elétricas
+                            residenciais e comerciais.
+                        </p>
+                        <a href="#contato" class="card-link">
+                            Saiba mais <span>→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-imagem">
+                        <img src="img/service2.jpg"
+                             alt="Manutenção elétrica"
+                             loading="lazy">
+                    </div>
+
+                    <div class="card-conteudo">
+                        <span class="card-numero">02 / MANUTENÇÃO</span>
+                        <h3>Manutenção Elétrica</h3>
+                        <p>
+                            Manutenção preventiva e corretiva
+                            com foco em segurança e agilidade.
+                        </p>
+                        <a href="#contato" class="card-link">
+                            Saiba mais <span>→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-imagem">
+                        <img src="img/service3.jpg"
+                             alt="Projetos elétricos"
+                             loading="lazy">
+                    </div>
+
+                    <div class="card-conteudo">
+                        <span class="card-numero">03 / PROJETOS</span>
+                        <h3>Projetos Elétricos</h3>
+                        <p>
+                            Desenvolvimento de projetos conforme
+                            as normas técnicas aplicáveis.
+                        </p>
+                        <a href="#contato" class="card-link">
+                            Saiba mais <span>→</span>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="contato" id="contato">
+
+            <div>
+                <span class="etiqueta">VAMOS CONVERSAR?</span>
+                <h2>Precisa de um serviço elétrico?</h2>
+                <p>
+                    Entre em contato com a equipe Flash e converse
+                    sobre seu projeto.
+                </p>
+            </div>
+
+            <div class="contato-info">
+                <img src="img/numero.png" alt="Telefone da Flash">
+                <p>Consulte nossos canais de atendimento.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <a href="#inicio" class="rodape-marca">
+            <img src="img/flash.png" alt="Flash Serviços Elétricos">
+        </a>
+
+        <p>© 2026 Flash Soluções Técnicas em Elétrica.</p>
+
+        <a href="#inicio">Voltar ao início ↑</a>
+    </footer>
+
+    <!-- MENU PARA CELULAR -->
+    <script>
+        const botaoMenu = document.getElementById("menu-botao");
+        const menu = document.getElementById("menu");
+
+        botaoMenu.addEventListener("click", () => {
+            const aberto = menu.classList.toggle("menu-aberto");
+
+            botaoMenu.setAttribute("aria-expanded", aberto);
+            botaoMenu.setAttribute(
+                "aria-label",
+                aberto ? "Fechar menu" : "Abrir menu"
+            );
+        });
+
+        menu.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => {
+                menu.classList.remove("menu-aberto");
+                botaoMenu.setAttribute("aria-expanded", "false");
+                botaoMenu.setAttribute("aria-label", "Abrir menu");
+            });
+        });
+    </script>
 
 </body>
 </html>
