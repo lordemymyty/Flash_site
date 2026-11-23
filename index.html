@@ -1,38 +1,52 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#101315">
 
-    <meta name="description" content="Flash Soluções Técnicas em Elétrica. Instalações, manutenção e projetos elétricos.">
+    <meta name="description"
+        content="Flash Soluções Técnicas em Elétrica. Instalações, manutenção e projetos elétricos residenciais, comerciais e industriais.">
 
     <title>Flash | Serviços Elétricos</title>
 
-    <link rel="stylesheet" href="stilo.css">
+    <link rel="stylesheet" href="./stilo.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <!-- CABEÇALHO -->
     <header class="cabecalho">
-        <a href="#inicio" class="marca">
+
+        <a href="#inicio" class="marca" aria-label="Flash - Página inicial">
             <img src="img/flash.png" alt="Flash Serviços Elétricos">
         </a>
 
-        <nav class="menu" id="menu">
+        <nav class="menu" id="menu" aria-label="Menu principal">
             <a href="#inicio">Início</a>
             <a href="#quem-somos">Quem somos</a>
             <a href="#servicos">Serviços</a>
+            <a href="#galeria">Projetos</a>
             <a href="#contato">Contato</a>
         </nav>
 
-        <button class="menu-botao" id="menu-botao"
+        <a class="botao-header"
+           href="https://wa.me/55SEUNUMERO"
+           target="_blank"
+           rel="noopener noreferrer">
+            Solicitar orçamento
+        </a>
+
+        <button class="menu-botao"
+                id="menu-botao"
                 aria-label="Abrir menu"
                 aria-expanded="false"
                 aria-controls="menu">
@@ -40,6 +54,7 @@
             <span></span>
             <span></span>
         </button>
+
     </header>
 
     <main>
@@ -48,6 +63,7 @@
         <section class="hero" id="inicio">
 
             <div class="hero-conteudo">
+
                 <span class="etiqueta">SOLUÇÕES ELÉTRICAS</span>
 
                 <h1>
@@ -62,6 +78,7 @@
                 </p>
 
                 <div class="hero-acoes">
+
                     <a href="#servicos" class="botao botao-amarelo">
                         Conheça os serviços <span>→</span>
                     </a>
@@ -69,19 +86,25 @@
                     <a href="#quem-somos" class="botao botao-contorno">
                         Sobre a empresa
                     </a>
+
                 </div>
 
                 <div class="hero-destaque">
+
                     <span class="destaque-icone">⚡</span>
+
                     <div>
                         <strong>Desde 2020</strong>
                         <p>Experiência e compromisso com a qualidade</p>
                     </div>
+
                 </div>
+
             </div>
 
             <div class="hero-imagem">
-                <img src="img/imaflahs.jpg" alt="Equipe Flash">
+                <img src="img/imaflahs.jpg"
+                     alt="Equipe da Flash realizando serviços elétricos">
             </div>
 
         </section>
@@ -90,9 +113,15 @@
         <section class="quem-somos secao" id="quem-somos">
 
             <div class="secao-titulo">
+
                 <span class="etiqueta">CONHEÇA A FLASH</span>
+
                 <h2>Quem <span>somos</span></h2>
-                <p>Compromisso, confiança e qualidade em serviços elétricos.</p>
+
+                <p>
+                    Compromisso, confiança e qualidade em serviços elétricos.
+                </p>
+
             </div>
 
             <div class="quem-conteudo">
@@ -104,6 +133,7 @@
                 </div>
 
                 <div class="quem-texto">
+
                     <h3>Levamos energia a novos projetos.</h3>
 
                     <p>
@@ -120,6 +150,7 @@
                     </p>
 
                     <div class="valores">
+
                         <div class="valor">
                             <span>✓</span>
                             <div>
@@ -143,24 +174,34 @@
                                 <p>Soluções para cada necessidade.</p>
                             </div>
                         </div>
+
                     </div>
+
                 </div>
 
             </div>
+
         </section>
 
         <!-- SERVIÇOS -->
         <section class="servicos secao" id="servicos">
 
             <div class="secao-titulo">
+
                 <span class="etiqueta">O QUE FAZEMOS</span>
+
                 <h2>Nossos <span>serviços</span></h2>
-                <p>Soluções elétricas para diferentes necessidades.</p>
+
+                <p>
+                    Soluções elétricas para diferentes necessidades.
+                </p>
+
             </div>
 
             <div class="services-cards">
 
                 <article class="card">
+
                     <div class="card-imagem">
                         <img src="img/service1.jpg"
                              alt="Instalações elétricas"
@@ -168,19 +209,26 @@
                     </div>
 
                     <div class="card-conteudo">
+
                         <span class="card-numero">01 / INSTALAÇÃO</span>
+
                         <h3>Instalações Elétricas</h3>
+
                         <p>
                             Execução de instalações elétricas
                             residenciais e comerciais.
                         </p>
+
                         <a href="#contato" class="card-link">
-                            Saiba mais <span>→</span>
+                            Solicitar orçamento <span>→</span>
                         </a>
+
                     </div>
+
                 </article>
 
                 <article class="card">
+
                     <div class="card-imagem">
                         <img src="img/service2.jpg"
                              alt="Manutenção elétrica"
@@ -188,19 +236,26 @@
                     </div>
 
                     <div class="card-conteudo">
+
                         <span class="card-numero">02 / MANUTENÇÃO</span>
+
                         <h3>Manutenção Elétrica</h3>
+
                         <p>
                             Manutenção preventiva e corretiva
                             com foco em segurança e agilidade.
                         </p>
+
                         <a href="#contato" class="card-link">
-                            Saiba mais <span>→</span>
+                            Solicitar orçamento <span>→</span>
                         </a>
+
                     </div>
+
                 </article>
 
                 <article class="card">
+
                     <div class="card-imagem">
                         <img src="img/service3.jpg"
                              alt="Projetos elétricos"
@@ -208,36 +263,149 @@
                     </div>
 
                     <div class="card-conteudo">
+
                         <span class="card-numero">03 / PROJETOS</span>
+
                         <h3>Projetos Elétricos</h3>
+
                         <p>
                             Desenvolvimento de projetos conforme
                             as normas técnicas aplicáveis.
                         </p>
+
                         <a href="#contato" class="card-link">
-                            Saiba mais <span>→</span>
+                            Solicitar orçamento <span>→</span>
                         </a>
+
                     </div>
+
                 </article>
 
             </div>
+
+        </section>
+
+        <!-- GALERIA -->
+        <section class="galeria secao" id="galeria">
+
+            <div class="secao-titulo">
+
+                <span class="etiqueta">NOSSO TRABALHO</span>
+
+                <h2>Projetos <span>realizados</span></h2>
+
+                <p>
+                    Conheça um pouco dos serviços executados pela Flash.
+                </p>
+
+            </div>
+
+            <div class="galeria-grid">
+
+                <div class="galeria-item">
+                    <img src="img/service1.jpg"
+                         alt="Exemplo de instalação elétrica"
+                         loading="lazy">
+                    <div class="galeria-legenda">
+                        <strong>Instalações elétricas</strong>
+                    </div>
+                </div>
+
+                <div class="galeria-item">
+                    <img src="img/service2.jpg"
+                         alt="Exemplo de manutenção elétrica"
+                         loading="lazy">
+                    <div class="galeria-legenda">
+                        <strong>Manutenção elétrica</strong>
+                    </div>
+                </div>
+
+                <div class="galeria-item">
+                    <img src="img/service3.jpg"
+                         alt="Exemplo de projeto elétrico"
+                         loading="lazy">
+                    <div class="galeria-legenda">
+                        <strong>Projetos elétricos</strong>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="galeria-aviso">
+                Substitua estas imagens por fotografias reais dos trabalhos da Flash.
+            </p>
+
+        </section>
+
+        <!-- DIFERENCIAIS -->
+        <section class="diferenciais secao">
+
+            <div class="secao-titulo">
+
+                <span class="etiqueta">NOSSO COMPROMISSO</span>
+
+                <h2>Por que escolher a <span>Flash?</span></h2>
+
+                <p>
+                    Nosso trabalho é baseado em confiança e responsabilidade.
+                </p>
+
+            </div>
+
+            <div class="diferenciais-grid">
+
+                <article class="diferencial">
+                    <span>⚡</span>
+                    <h3>Experiência</h3>
+                    <p>Atuação no setor elétrico desde 2020.</p>
+                </article>
+
+                <article class="diferencial">
+                    <span>✓</span>
+                    <h3>Segurança</h3>
+                    <p>Atenção aos procedimentos e normas técnicas aplicáveis.</p>
+                </article>
+
+                <article class="diferencial">
+                    <span>◆</span>
+                    <h3>Compromisso</h3>
+                    <p>Responsabilidade em cada etapa do serviço.</p>
+                </article>
+
+            </div>
+
         </section>
 
         <!-- CONTATO -->
         <section class="contato" id="contato">
 
-            <div>
+            <div class="contato-texto">
+
                 <span class="etiqueta">VAMOS CONVERSAR?</span>
+
                 <h2>Precisa de um serviço elétrico?</h2>
+
                 <p>
                     Entre em contato com a equipe Flash e converse
-                    sobre seu projeto.
+                    sobre seu projeto. Solicite seu orçamento!
                 </p>
+
+                <a href="https://wa.me/55SEUNUMERO?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="botao botao-whatsapp">
+                    Conversar pelo WhatsApp →
+                </a>
+
             </div>
 
             <div class="contato-info">
-                <img src="img/numero.png" alt="Telefone da Flash">
+
+                <img src="img/numero.png"
+                     alt="Telefone da Flash">
+
                 <p>Consulte nossos canais de atendimento.</p>
+
             </div>
 
         </section>
@@ -246,6 +414,7 @@
 
     <!-- RODAPÉ -->
     <footer class="rodape">
+
         <a href="#inicio" class="rodape-marca">
             <img src="img/flash.png" alt="Flash Serviços Elétricos">
         </a>
@@ -253,14 +422,33 @@
         <p>© 2026 Flash Soluções Técnicas em Elétrica.</p>
 
         <a href="#inicio">Voltar ao início ↑</a>
+
     </footer>
 
-    <!-- MENU PARA CELULAR -->
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a class="whatsapp-flutuante"
+       href="https://wa.me/55SEUNUMERO"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Conversar com a Flash pelo WhatsApp">
+        WhatsApp
+    </a>
+
+    <!-- JAVASCRIPT -->
     <script>
+
         const botaoMenu = document.getElementById("menu-botao");
         const menu = document.getElementById("menu");
 
+        function fecharMenu() {
+            menu.classList.remove("menu-aberto");
+
+            botaoMenu.setAttribute("aria-expanded", "false");
+            botaoMenu.setAttribute("aria-label", "Abrir menu");
+        }
+
         botaoMenu.addEventListener("click", () => {
+
             const aberto = menu.classList.toggle("menu-aberto");
 
             botaoMenu.setAttribute("aria-expanded", aberto);
@@ -268,15 +456,32 @@
                 "aria-label",
                 aberto ? "Fechar menu" : "Abrir menu"
             );
+
         });
 
         menu.querySelectorAll("a").forEach(link => {
-            link.addEventListener("click", () => {
-                menu.classList.remove("menu-aberto");
-                botaoMenu.setAttribute("aria-expanded", "false");
-                botaoMenu.setAttribute("aria-label", "Abrir menu");
-            });
+
+            link.addEventListener("click", fecharMenu);
+
         });
+
+        document.addEventListener("keydown", (evento) => {
+
+            if (evento.key === "Escape") {
+                fecharMenu();
+            }
+
+        });
+
+        document.addEventListener("click", (evento) => {
+
+            if (!menu.contains(evento.target) &&
+                !botaoMenu.contains(evento.target)) {
+                fecharMenu();
+            }
+
+        });
+
     </script>
 
 </body>
